@@ -2,33 +2,39 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Florida International University</a>. Miami, FL. 
 
 profile:
-  align: right
+  align: lift
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#    <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello, my name is Zhipeng Yin. I am a Ph.D. candidate at the Knight Foundation School of Computing and Information Sciences (KFSCIS) at Florida International University, fortunate to be advised by [Dr. Wenbin Zhang](https://users.cs.fiu.edu/~wbzhang/), whose expertise lies in Reliable AI.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research centers on `trustworthy AI`, with a particular focus on `algorithmic fairness, reliability, interpretability, as well as the intricate copyright and intellectual property challenges brought by generative models`. In this domain, I am deeply interested in how we can ensure both fairness and responsible attribution as cutting-edge generative models inspire new forms of creativity, while also raising complex questions about intellectual property and copyright boundaries in the era of AI-driven content.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Along my academic journey, I have been honored with the `ECML-PKDD 2025` [Best Student Paper Award](https://ecmlpkdd.org/2025/awards/), and have served as Program Committee for conferences including ECAI, ECML-PKDD, AIES, and AAMAS. Thanks to my advisor, my academic lineage traces to Paul Erdős, giving me an Erdős number of 4 (me->Wenbin Zhang->Alan Evans->David Avis->Erdős)—a small, personal testament to the spirit of interdisciplinary collaboration.
+
+Before entering academia, I worked as a software engineer and game developer. One of my most rewarding projects was contributing to [Top War](https://www.rivergame.net/en/default.html?1648441890461), a game now enjoyed by over `100 million` players worldwide. Outside of research and coding, I am an avid photographer drawn to the beauty of nature—capturing sunrises, sunsets, starry skies, and landscapes to tell visual stories through my lens.
+
+Thank you for stopping by to read a little bit about me. Whether you’re interested in research, tech, or just want to share a favorite photo spot, I hope you’ll reach out—after all, every conversation is the start of a new story.
+
+
