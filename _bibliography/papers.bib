@@ -3,6 +3,65 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{yin2024fairaied,
+  abstract={}
+  title={FairAIED: Navigating Fairness, Bias, and Ethics in Educational AI Applications},
+  author={Yin, Zhipeng and Chinta, Sribala Vidyadhari and Wang, Zichong and Gonzalez, Matthew and Zhang, Wenbin},
+  journal={arXiv preprint arXiv:2407.18745},
+  year={2025},
+  html={https://arxiv.org/pdf/2407.18745}
+}
+
+@article{wang2025fg,
+  abstract={Graphgenerativemodelshavebecome increasinglyprevalent across various domains due to their superior performance indiverseapplications. However, as theirapplicationrises,particularlyinhigh-riskdecision-makingscenarios, concerns about their fairness are intensifyingwithin the community. Existing graph-basedgenerationmodels mainlyfocusonsynthesizingminoritynodestoenhancethe node classificationperformance. However, byoverlooking thenodegenerationprocess,thisstrategymayintensifyrepresentationaldisparitiesamongdifferentsubgroups,thereby furthercompromisingthefairnessof themodel.Moreover, existingoversamplingmethodsgeneratesamplesbyselectinginstancesfromcorrespondingsubgroups,riskingoverfittinginthosesubgroupsowingtotheirunderrepresentation. Furthermore,theyfailtoaccountfortheinherentimbalance inedgedistributionsamongsubgroups,consequentlyintroducingstructuralbiaswhengeneratinggraphstructure information.Toaddressthesechallenges,thispaperelucidates howexistinggraph-basedsamplingtechniquescanamplify real-worldbiasandproposesanovel framework,FairGraph SyntheticMinorityOversamplingTechnique(FG-SMOTE), aimedatachievinga fairbalance inrepresentingdifferent subgroups. Specifically, FG-SMOTE starts by removing the identifiabilityof subgroup information fromnode representations. Subsequently, the embeddings for simulated nodesaregeneratedbysampling fromthese subgroup informationdesensitizednoderepresentations. Lastly, a fair linkpredictor isemployedtogeneratethegraphstructure information. Extensive experimental evaluations onthree realgraphdatasetsshowthatFG-SMOTEoutperformsthe state-of-the-artbaselines infairnesswhilealsomaintaining competitivepredictiveperformance.}
+  title={Fg-smote: Towards fair node classification with graph neural network},
+  author={Wang, Zichong and Yin, Zhipeng and Zhang, Yuying and Yang, Liping and Zhang, Tingting and Pissinou, Niki and Cai, Yu and Hu, Shu and Li, Yun and Zhao, Liang and others},
+  journal={ACM SIGKDD Explorations Newsletter},
+  year={2025},
+  publisher={ACM New York, NY, USA},
+  html={https://dl.acm.org/doi/abs/10.1145/3715073.3715082}
+}
+
+@article{yin2026fairness,
+  abstract={Language Models (LMs) have demonstrated exceptional performance across various Natural Language Processing (NLP) tasks. Despite these advancements, LMs can inherit and amplify societal biases related to sensitive attributes such as gender and race, limiting their adoption in real-world applications. Therefore, fairness has been extensively explored in LMs, leading to the proposal of various fairness notions. However, the lack of clear agreement on which fairness definition to apply in specific contexts and the complexity of understanding the distinctions between these definitions can create confusion and impede further progress. To this end, this paper proposes a systematic survey that clarifies the definitions of fairness as they apply to LMs. Specifically, we begin with a brief introduction to LMs and fairness in LMs, followed by a comprehensive, up-to-date overview of existing fairness notions in LMs and the introduction of a novel taxonomy that categorizes these concepts based on their transformer architecture: encoder-only, decoder-only, and encoder-decoder LMs. We further illustrate each definition through experiments, showcasing their practical implications and outcomes. Finally, we discuss current research challenges and open questions, aiming to foster innovative ideas and advance the field. The repository is publicly available online at https://github.com/vanbanTruong/Fairness-in-Large-Language-Models/tree/main/definitions.}
+  title={Fairness Definitions in Language Models Explained},
+  author={Yin, Zhipeng and Wang, Zichong and Palikhe, Avash and Zhang, Wenbin},
+  journal={Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery},
+  year={2026},
+  publisher={Wiley Online Library},
+  html={https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.70063},
+  website={https://github.com/stefan0711/Fairness-in-Large-Language-Models/tree/main/definitions}
+}
+
+@article{yin2025digital,
+  abstract={Digital forensics plays a pivotal role in modern investigative processes, utilizing specialized methods to systematically collect, analyze, and interpret digital evidence for judicial proceedings. However, traditional digital forensic techniques are primarily based on manual labor-intensive processes, which become increasingly insufficient with the rapid growth and complexity of digital data. To this end, Large Language Models (LLMs) have emerged as powerful tools capable of automating and enhancing various digital forensic tasks, significantly transforming the field. Despite the strides made, general practitioners and forensic experts often lack a comprehensive understanding of the capabilities, principles, and limitations of LLM, which limits the full potential of LLM in forensic applications. To fill this gap, this paper aims to provide an accessible and systematic overview of how LLM has revolutionized the digital forensics approach. Specifically, it takes a look at the basic concepts of digital forensics, as well as the evolution of LLM, and emphasizes the superior capabilities of LLM. To connect theory and practice, relevant examples and real-world scenarios are discussed. We also critically analyze the current limitations of applying LLMs to digital forensics, including issues related to illusion, interpretability, bias, and ethical considerations. In addition, this paper outlines the prospects for future research, highlighting the need for effective use of LLMs for transparency, accountability, and robust standardization in the forensic process.}
+  title={Digital Forensics in the Age of Large Language Models},
+  author={Yin, Zhipeng and Wang, Zichong and Xu, Weifeng and Zhuang, Jun and Mozumder, Pallab and Smith, Antoinette and Zhang, Wenbin},
+  journal={Artificial Intelligence Driven Forensics},
+  year={2025}
+  html={https://arxiv.org/abs/2504.02963}
+}
+
+@article{amon2025uncertain,
+  abstract={Generative AI is becoming increasingly prevalent in creative f ields, sparking urgent debates over how current copyright laws can keep pace with technological innovation. Recent controversies of AI models generating near-replicas of copyrighted material highlight the need to adapt current legal frameworks and develop technical methods to mitigate copyright infringement risks. This task requires understanding the intersection between computational concepts such as large-scale data scraping and probabilistic content generation, legal definitions of originality and fair use, and economic impacts on intellectual property (IP) rights holders. However, most existing research on copyright in AI takes a purely computer science or law-based approach, leaving a gap in coordinating these approaches that only multidisciplinary efforts can effectively address. To bridge this gap, our survey adopts a comprehensive approach synthesizing insights from law, policy, economics, and computer science. It begins by discussing the foundational goals and considerations that should be applied to copyright in generative AI, followed by methods for detecting and assessing potential violations in AI system outputs. Next, it explores various regulatory options influenced by legal, policy, and economic frameworks to manage and mitigate copyright concerns associated with generative AI and reconcile the interests of IP rights holders with that of generative AI producers. The discussion then introduces techniques to safeguard individual creative works from unauthorized replication, such as watermarking and cryptographic protections. Finally, it describes advanced training strategies designed to prevent AI models from reproducing protected content. In doing so, we highlight key opportunities for action and offer actionable strategies that creators, developers, and policymakers can use in navigating the evolving copyright landscape.}
+  title={Uncertain boundaries: Multidisciplinary approaches to copyright issues in generative ai},
+  author={Amon, Archer and Yin, Zhipeng and Wang, Zichong and Palikhe, Avash and Yu, Tongjia and Zhang, Wenbin},
+  journal={ACM SIGKDD Explorations Newsletter},
+  year={2025},
+  publisher={ACM New York, NY, USA},
+  html={https://arxiv.org/pdf/2404.08221}
+}
+
+@article{wang2025graph,
+  abstract={The extensive use of graph-based Machine Learning (ML) decision-making systems has raised numerous concerns about their potential discrimination, especially in domains with high societal impact. Various fair graph methods have thus been proposed, primarily relying on statistical fairness notions that emphasize sensitive attributes as a primary source of bias, leaving other sources of bias inadequately addressed. Existing works employ counterfactual fairness to tackle this issue from a causal perspective. However, these approaches suffer from two key limitations: they overlook hidden confounders that may affect node features and graph structure, leading to an oversimplification of causality and the inability to generate authentic counterfactual instances; they neglect graph structure bias, resulting in over-correlation of sensitive attributes with node representations. In response, this paper introduces the Authentic Graph Counterfactual Generator (AGCG), a novel framework designed to mitigate graph structure bias through a novel fair message-passing technique and to improve counterfactual sample generation by inferring hidden confounders. Comprising four key modules - subgraph selection, fair node aggregation, hidden confounder identification, and counterfactual instance generation - AGCG offers a holistic approach to advancing graph model fairness in multiple dimensions. Empirical studies conducted on both real and synthetic datasets demonstrate the effectiveness and utility of AGCG in promoting fair graph-based decision-making.}
+  title={Graph fairness via authentic counterfactuals: Tackling structural and causal challenges},
+  author={Wang, Zichong and Yin, Zhipeng and Liu, Fang and Liu, Zhen and Lisetti, Christine and Yu, Rui and Wang, Shaowei and Liu, Jun and Ganapati, Sukumar and Zhou, Shuigeng and others},
+  journal={ACM SIGKDD Explorations Newsletter},
+  year={2025},
+  publisher={ACM New York, NY, USA}
+  html={https://dl.acm.org/doi/pdf/10.1145/3715073.3715081}
+}
+
 @book{einstein1920relativity,
   title={Relativity: the Special and General Theory},
   author={Einstein, Albert},
@@ -11,14 +70,7 @@
   html={relativity.html}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
+
 
 @article{einstein1950meaning,
   abbr={AJP},
@@ -61,32 +113,11 @@
   inspirehep_id = {3255}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
+
+
+
 
 @Article{einstein1905photoelectriceffect,
   bibtex_show={true},
@@ -104,12 +135,4 @@
   award_name={Nobel Prize}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+
