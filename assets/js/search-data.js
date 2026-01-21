@@ -49,7 +49,14 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/zhip.y7@gmail.com", "_blank");
+          window.open("https://www.linkedin.com/in/zhipengyin", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/stefan0711", "_blank");
         },
       },{
       id: 'light-theme',
