@@ -155,17 +155,17 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
-collections:
-  books:
-    output: true
-  news:
-    defaults:
-      layout: post
-    output: true
-#  projects:
+#collections:
+#  books:
 #    output: true
-  teachings:
-    output: true
+#  news:
+#    defaults:
+#      layout: post
+#    output: true
+##  projects:
+##    output: true
+#  teachings:
+#    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
