@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: <div class="wordwrap">You can also find my papers on <a href="https://scholar.google.com/citations?user=1nVpMXgAAAAJ&hl=en">my Google Scholar profile</a>.</div>
+description: You can also find my papers on <a href="https://scholar.google.com/citations?user=1nVpMXgAAAAJ&hl=en">my Google Scholar profile</a>.
 nav: true
 nav_order: 2
 ---
