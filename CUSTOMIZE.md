@@ -600,8 +600,8 @@ All these search features work in real-time and do not require a page reload.
 The theme offers several options for customizing how publications are displayed:
 
 ```yaml
-enable_publication_thumbnails: true
-max_author_limit: 3
+enable_publication_thumbnails: false
+max_author_limit: 
 more_authors_animation_delay: 10
 ```
 

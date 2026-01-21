@@ -156,7 +156,7 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
-#collections:
+collections:
 #  books:
 #    output: true
 #  news:
@@ -165,8 +165,8 @@ newsletter:
 #    output: true
 ##  projects:
 ##    output: true
-#  teachings:
-#    output: true
+  teachings:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -282,8 +282,8 @@ terser:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yin]
+  first_name: [Zhipeng]
 
   style: apa
   locale: en
