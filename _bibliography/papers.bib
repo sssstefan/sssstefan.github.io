@@ -62,77 +62,105 @@
   html={https://dl.acm.org/doi/pdf/10.1145/3715073.3715081}
 }
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+
+@article{yin2024improving,
+  abstract={Machine Learning (ML) software is increasingly influencing decisions that impact individuals' lives. However, some of these decisions show discrimination and thus introduce algorithmic biases against certain social subgroups defined by sensitive attributes (e.g., gender or race). This has elevated software fairness bugs to an increasingly significant concern for software engineering (SE). However, most existing bias mitigation works enhance software fairness, a non-functional software property, at the cost of software performance. To this end, we proposed a novel framework, namely Group Equality Counterfactual Fairness (GECF), which aims to mitigate sensitive attribute bias and labeling bias using counterfactual fairness while reducing the resulting performance loss based on ensemble learning. Experimental results on 6 real-world datasets show the superiority of our proposed framework from different aspects.},
+  title={Improving fairness in machine learning software via counterfactual fairness thinking},
+  author={Yin, Zhipeng and Wang, Zichong and Zhang, Wenbin},
+  journal={2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings},
+  year={2024},
+  html={https://dl.acm.org/doi/abs/10.1145/3639478.3643531}
+}
+
+
+@article{wang2025redefining,
+  abstract={As machine learning techniques continue to permeate a variety of application domains with significant societal impact, the focus on algorithmic fairness is becoming an increasingly critical aspect of this established area of research. Existing studies on fairness typically assume that algorithmic bias stems from a single, predefined sensitive attribute in the data, thereby overlooking the reality that multiple sensitive attributes are often prevalent simultaneously in the real world. Unlike previous works, this paper delves into the realm of group fairness involving multiple sensitive attributes, a setting that greatly increases the difficulty of mitigating algorithmic bias. We posit that this multi-attribute perspective provides a more pragmatic model for fairness in real-world applications, and show how learning with such an intricate precondition draws new insights that better explain algorithmic fairness. Furthermore, we develop the first-of-its-kind unified metric, Multi-Fairness Bonded Utility (MFBU), designed to simultaneously evaluate and compare the trade-offs between fairness and utility of multi-source bias mitigation methods. By combining fairness and utility into a single, intuitive metric, MFBU provides model designers the flexibility to holistically evaluate and compare different fairness techniques. Thorough experiments conducted on three real-world datasets substantiate the superior performance of the proposed methodology in minimizing discrimination while maintaining predictive performance.},
+  title={Redefining fairness: A multi-dimensional perspective and integrated evaluation framework},
+  author={Wang, Zichong and Yin, Zhipeng and Liu, Zhen and Yap, Roland HC and Zhang, Xiaocai and Hu, Shu and Zhang, Wenbin},
+  journal={Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD)},
+  year={2025},
+  organization={Springer},
+  html={https://link.springer.com/chapter/10.1007/978-3-032-05962-8_20}
+}
+
+@article{wang2025fairness,
+  award={Best student paper award},
+  award_name={Best student paper award},
+  abstract={Ensuring fairness in Graph Neural Networks is fundamental to promoting trustworthy and socially responsible machine learning systems. In response, numerous fair graph learning methods have been proposed in recent years. However, most of them assume full access to demographic information, a requirement rarely met in practice due to privacy, legal, or regulatory restrictions. To this end, this paper introduces a novel fair graph learning framework that mitigates bias in graph learning under limited demographic information. Specifically, we propose a mechanism guided by partial demographic data to generate proxies for demographic information and design a strategy that enforces consistent node embeddings across demographic groups. In addition, we develop an adaptive confidence strategy that dynamically adjusts each node’s contribution to fairness and utility based on prediction confidence. We further provide theoretical analysis demonstrating that our framework, FairGLite, achieves provable upper bounds on group fairness metrics, offering formal guarantees for bias mitigation. Through extensive experiments on multiple datasets and fair graph learning frameworks, we demonstrate the framework’s effectiveness in both mitigating bias and maintaining model utility.},
+  title={Fairness-aware graph representation learning with limited demographic information},
+  author={Wang, Zichong and Yin, Zhipeng and Yang, Liping and Zhuang, Jun and Yu, Rui and Kong, Qingzhao and Zhang, Wenbin},
+  journal={Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD)},
+  year={2025},
+  organization={Springer},
+  html={https://link.springer.com/chapter/10.1007/978-3-032-05962-8_21}
+}
+
+@article{zhang2025datasets,
+  abstract={Fairness benchmarks play a central role in shaping how we evaluate language models, yet surprisingly little attention has been given to examining the datasets that these benchmarks rely on. This survey addresses that gap by presenting a broad and careful review of the most widely used fairness datasets in current language model research, characterizing them along several key dimensions including their origin, scope, content, and intended use to help researchers better appreciate the assumptions and limitations embedded in these resources. To support more meaningful comparisons and analyses, we introduce a unified evaluation framework that reveals consistent patterns of demographic disparities across datasets and scoring methods. Applying this framework to twenty four common benchmarks, we highlight the often overlooked biases that can influence conclusions about model fairness and offer practical guidance for selecting, combining, and interpreting these datasets. We also point to opportunities for creating new fairness benchmarks that reflect more diverse social contexts and encourage more thoughtful use of these tools going forward. All code, data, and detailed results are publicly available at https://github.com/vanbanTruong/Fairness-in-Large-Language-Models/tree/main/datasets to promote transparency and reproducibility across the research community.},
+  title={Datasets for Fairness in Language Models: An In-Depth Survey},
+  author={Zhang, Jiale and Wang, Zichong and Palikhe, Avash and Yin, Zhipeng and Zhang, Wenbin},
+  journal={arXiv preprint arXiv:2506.23411},
+  year={2025},
+  html={https://arxiv.org/abs/2506.23411},
+  website={https://github.com/stefan0711/Fairness-in-Large-Language-Models/tree/main/datasets}
+}
+
+@article{yin2025amcr,
+  abstract={Generative models have achieved impressive results in text to image tasks, significantly advancing visual content creation. However, this progress comes at a cost, as such models rely heavily on large-scale training data and may unintentionally replicate copyrighted elements, creating serious legal and ethical challenges for real-world deployment. To address these concerns, researchers have proposed various strategies to mitigate copyright risks, most of which are prompt based methods that filter or rewrite user inputs to prevent explicit infringement. While effective in handling obvious cases, these approaches often fall short in more subtle situations, where seemingly benign prompts can still lead to infringing outputs. To address these limitations, this paper introduces Assessing and Mitigating Copyright Risks (AMCR), a comprehensive framework which i) builds upon prompt-based strategies by systematically restructuring risky prompts into safe and non-sensitive forms, ii) detects partial infringements through attention-based similarity analysis, and iii) adaptively mitigates risks during generation to reduce copyright violations without compromising image quality. Extensive experiments validate the effectiveness of AMCR in revealing and mitigating latent copyright risks, offering practical insights and benchmarks for the safer deployment of generative models.},
+  title={Amcr: A framework for assessing and mitigating copyright risks in generative models},
+  author={Yin, Zhipeng and Wang, Zichong and Palikhe, Avash and Liu, Zhen and Liu, Jun and Zhang, Wenbin},
+  journal={28th European Conference on Artificial Intelligence (ECAI)},
+  year={2025},
+  html={https://arxiv.org/abs/2509.00641}
+}
+
+@article{wang2025towards,
+  abstract={Machine Learning (ML) software is increasingly influencing decisions that impact individuals’ lives. However, some of these decisions show discrimination and thus introduce algorithmic biases against certain social groups defined by sensitive attributes (e.g., gender or race). This has elevated software fairness bugs to an increasingly significant concern for software engineering (SE). However, most existing bias mitigation works focus on tabular data. Exploration in the context of graph data, which is widely prevalent in real-world applications, has been relatively neglected. This paper thus sheds light on the impact of biases within graph data on the fairness of ML models and how to detect biases in graph based software. Subsequently, we introduce Fair Graph Redistribution and Generation (FGRG), a novel fair imbalance node learning technique designed to enhance the fairness of graph-based ML software. Specifically, FGRG commences with the generation of unbiased node embeddings for each node. Next, FGRG identifies node similarities within the embedding space and generates new nodes to rebalance the internal distribution, ensuring subgroups with different sensitive attributes are balanced representations across both positive and negative classes. Experiments on 8 real-world graphs across 3 fairness and 4 performance measurements show that our framework significantly outperforms the state-of-the-art baselines, and also achieves comparable prediction performance. In particular, FGRG beats the trade-off baseline in 79.16% of the fairness cases evaluated and 62.5% of the performance cases evaluated.},
+  title={Towards fair graph-based machine learning software: unveiling and mitigating graph model bias},
+  author={Wang, Zichong and Yin, Zhipeng and Zhang, Xingyu and Zhang, Yuying and He, Xudong and Wang, Shaowei and Song, Houbing and Yang, Liping and Zhang, Wenbin},
+  journal={AI and Ethics},
+  year={2025},
+  publisher={Springer},
+  html={https://link.springer.com/article/10.1007/s43681-025-00756-y}
+}
+
+@article{wang2025ai,
+  abstract={Fairness in artificial intelligence (AI) has become a growing concern due to discriminatory outcomes in AI-based decision-making systems. While various methods have been proposed to mitigate bias, most rely on complete demographic information, an assumption often impractical due to legal constraints and the risk of reinforcing discrimination. This survey examines fairness in AI when demographics are incomplete, addressing the gap between traditional approaches and real-world challenges. We introduce a novel taxonomy of fairness notions in this setting, clarifying their relationships and distinctions. Additionally, we summarize existing techniques that promote fairness beyond complete demographics and highlight open research questions to encourage further progress in the field.},
+  title={Ai fairness beyond complete demographics: Current achievements and future directions},
+  author={Wang, Zichong and Yin, Zhipeng and Yap, Roland HC and Zhang, Wenbin},
+  journal={28th European Conference on Artificial Intelligence (ECAI)},
+  year={2025},
+  html={https://arxiv.org/abs/2511.13525}
+}
+
+@article{palikhe2025towards,
+  abstract={Language Models (LMs) have significantly advanced natural language processing and enabled remarkable progress across diverse domains, yet their black-box nature raises critical concerns about the interpretability of their internal mechanisms and decision-making processes. This lack of transparency is particularly problematic for adoption in high-stakes domains, where stakeholders need to understand the rationale behind model outputs to ensure accountability. On the other hand, while explainable artificial intelligence (XAI) methods have been well studied for non-LMs, they face many limitations when applied to LMs due to their complex architectures, considerable training corpora, and broad generalization abilities. Although various surveys have examined XAI in the context of LMs, they often fail to capture the distinct challenges arising from the architectural diversity and evolving capabilities of these models. To bridge this gap, this survey presents a comprehensive review of XAI techniques with a particular emphasis on LMs, organizing them according to their underlying transformer architectures: encoder-only, decoder-only, and encoder-decoder, and analyzing how methods are adapted to each while assessing their respective strengths and limitations. Furthermore, we evaluate these techniques through the dual lenses of plausibility and faithfulness, offering a structured perspective on their effectiveness. Finally, we identify open research challenges and outline promising future directions, aiming to guide ongoing efforts toward the development of robust, transparent, and interpretable XAI methods for LMs.},
+  title={Towards transparent ai: A survey on explainable language models},
+  author={Palikhe, Avash and Wang, Zichong and Yin, Zhipeng and Guo, Rui and Duan, Qiang and Yang, Jie and Zhang, Wenbin},
+  journal={arXiv preprint arXiv:2509.21631},
+  year={2025},
+  html={https://arxiv.org/abs/2509.21631}
+}
+
+@article{wang2025unified,
+  abstract={Graph generation models play pivotal roles in many real-world applications, from data augmentation to privacy-preserving. Despite their deployment successes, existing approaches often exhibit fairness issues, limiting their adoption in high-risk decision-making applications. Most existing fair graph generation works are based on autoregressive models that suffer from ordering sensitivity, while primarily addressing structural bias and overlooking the critical issue of feature bias. To this end, we propose FairGEM, a novel one-shot graph generation framework designed to mitigate both graph structural bias and node feature bias simultaneously. Furthermore, our theoretical analysis establishes that FairGEM delivers substantially stronger fairness guarantees than existing models while preserving generation quality. Extensive experiments across multiple real-world datasets demonstrate that FairGEM achieves superior performance in both generation quality and fairness.},
+  title={A unified framework for fair graph generation: Theoretical guarantees and empirical advances},
+  author={Wang, Zichong and Yin, Zhipeng and Zhang, Wenbin},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)},
+  year={2025},
+  html={https://openreview.net/forum?id=T85ADT8a2y}
+}
+
+@article{palikhedomain,
+  abstract={Language Models (LMs) have demonstrated remarkable performance across a wide range of natural language processing tasks. However, they often fall short in application areas that demand deep, expert-level knowledge for accurate and reliable outcomes. Such domains pose unique challenges that general-purpose LMs are not inherently designed to address, leading to factual inaccuracies and degraded performance with potentially serious consequences. To overcome these limitations, researchers have developed various techniques to equip LMs with domain-specific knowledge for specialized tasks. This survey provides a comprehensive review of domain-specialization techniques for language models across diverse domains, systematically examining their key features, trade-offs, and integration strategies that combine different adaptation methods. It proposes a unified framework that categorizes these methods through a standardized taxonomy based on the domain knowledge integration stage: training phase, inference phase, and hybrid approaches. We further analyze these methods, emphasizing their underlying mechanisms and providing systematic comparisons while discussing their implications for domain-specific adaptation. Finally, we highlight existing challenges and outline promising directions for advancing research in this rapidly evolving field.},
+  title={Domain Knowledge Empowered Language Models: A Survey},
+  author={Palikhe, Avash and Wang, Zichong and Yin, Zhipeng and Hu, Shu and Zhao, Xuejiao and Liu, Jun and Cai, Yu and Zhang, Wenbin},
+  journal={Authorea Preprints},
+  publisher={Authorea},
+  html={https://www.techrxiv.org/doi/full/10.36227/techrxiv.176403151.11257350}
 }
 
 
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-
-
-
-
-
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
 
 
