@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Florida International University</a>. Miami, FL. 
+subtitle: <a href='https://www.fiu.edu/'>Florida International University</a>. Miami, FL. 
 
 profile:
-  align: lift
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -29,11 +29,11 @@ latest_posts:
 
 Hello, my name is Zhipeng Yin. I am a Ph.D. candidate at the Knight Foundation School of Computing and Information Sciences (KFSCIS) at Florida International University, fortunate to be advised by [Dr. Wenbin Zhang](https://users.cs.fiu.edu/~wbzhang/), whose expertise lies in Reliable AI.
 
-My research centers on `trustworthy AI`, with a particular focus on `algorithmic fairness, reliability, interpretability, as well as the intricate copyright and intellectual property challenges brought by generative models`. In this domain, I am deeply interested in how we can ensure both fairness and responsible attribution as cutting-edge generative models inspire new forms of creativity, while also raising complex questions about intellectual property and copyright boundaries in the era of AI-driven content.
+My research centers on `trustworthy AI, with a particular focus on algorithmic fairness, reliability, interpretability, as well as the intricate copyright and intellectual property challenges brought by generative models`.
 
-Along my academic journey, I have been honored with the `ECML-PKDD 2025` [Best Student Paper Award](https://ecmlpkdd.org/2025/awards/), and have served as Program Committee for conferences including ECAI, ECML-PKDD, AIES, and AAMAS. Thanks to my advisor, my academic lineage traces to Paul Erdős, giving me an Erdős number of 4 (me->Wenbin Zhang->Alan Evans->David Avis->Erdős)—a small, personal testament to the spirit of interdisciplinary collaboration.
+Along my academic journey, I have been honored with the [ECML-PKDD 2025 Best Student Paper Award](https://ecmlpkdd.org/2025/awards/). Thanks to my advisor, my academic lineage traces to Paul Erdős, giving me an Erdős number of 4 (me->Wenbin Zhang->Alan Evans->David Avis->Erdős)—a small, personal testament to the spirit of interdisciplinary collaboration.
 
-Before entering academia, I worked as a software engineer and game developer. One of my most rewarding projects was contributing to [Top War](https://www.rivergame.net/en/default.html?1648441890461), a game now enjoyed by over `100 million` players worldwide. Outside of research and coding, I am an avid photographer drawn to the beauty of nature—capturing sunrises, sunsets, starry skies, and landscapes to tell visual stories through my lens.
+Before entering academia, I worked as a software engineer and game developer. One of my most rewarding projects was contributing to [Top War](https://www.rivergame.net/en/default.html?1648441890461), a game now enjoyed by over `100 million` players worldwide. Outside of research and coding, I am an avid photographer drawn to the beauty of nature— capturing sunrises, sunsets and starry skies to tell visual stories through my lens.
 
 Thank you for stopping by to read a little bit about me. Whether you’re interested in research, tech, or just want to share a favorite photo spot, I hope you’ll reach out—after all, every conversation is the start of a new story.
 
