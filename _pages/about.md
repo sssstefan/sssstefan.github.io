@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: Ph.D. Candidate | Photographer.<br><a href='https://www.fiu.edu/'>Florida International University</a>. Miami, FL. 
+subtitle: Ph.D. Candidate | Photographer <br><a href='https://www.fiu.edu/'>Florida International University</a> Miami, FL. 
 
 profile:
   align: right
