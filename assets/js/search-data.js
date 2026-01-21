@@ -23,16 +23,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+        },{id: "teachings-cap5602-introduce-to-artificial-intelligence",
+          title: 'CAP5602 Introduce to Artificial Intelligence',
+          description: "Teaching Assistant",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals.html";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+              window.location.href = "/teachings/CAP5602-2025.html";
+            },},{id: "teachings-cen3721-intro-human-comp-interaction",
+          title: 'CEN3721 Intro Human-Comp Interaction',
+          description: "Teaching Assistant",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning.html";
+              window.location.href = "/teachings/CEN3721.html";
+            },},{id: "teachings-cen4072-fundamental-software-testing",
+          title: 'CEN4072 Fundamental Software Testing',
+          description: "Teaching Assistant",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/CEN4072-2024.html";
+            },},{id: "teachings-cen4072-fundamental-software-testing",
+          title: 'CEN4072 Fundamental Software Testing',
+          description: "Teaching Assistant",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/CEN4072-S.html";
             },},{
         id: 'social-cv',
         title: 'CV',
