@@ -7,7 +7,7 @@ first_name: Zhipeng
 middle_name:
 last_name: Yin
 contact_note: >
-  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=n&d=6jOsUZ0JJIOZZ-Evk6g6jVCZ7PKtlYAKQFCzTtMNug4&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+  <div style="width: 300px; height: 170px; margin-left:35%;"><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=n&d=6jOsUZ0JJIOZZ-Evk6g6jVCZ7PKtlYAKQFCzTtMNug4&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script></div>
 #  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
