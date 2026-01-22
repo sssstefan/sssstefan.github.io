@@ -95,7 +95,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Talk/Tutorial # blog_name will be displayed in your blog page
-blog_description:
+blog_description: You can click on each entry to explore detailed information.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

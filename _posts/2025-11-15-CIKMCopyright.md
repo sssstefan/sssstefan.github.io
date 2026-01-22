@@ -15,4 +15,4 @@ As generative artificial intelligence (AI) becomes increasingly prevalent in cre
 
 ### Website
 
-[Click](https://aicopyright-tutorial.github.io/) to visit our `tutorial website`.
+[Click](https://aicopyright-tutorial.github.io/) to visit our tutorial website.

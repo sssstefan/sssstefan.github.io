@@ -15,4 +15,4 @@ Archer Amon, Zichong Wang, `Zhipeng Yin` and Wenbin Zhang
 
 ### Website
 
-[Click](https://aicopyright-tutorial.github.io/) to visit our `tutorial website`.
+[Click](https://aicopyright-tutorial.github.io/) to visit our tutorial website.

@@ -16,4 +16,4 @@ Zichong Wang, `Zhipeng Yin`, Avash Palikhe and Wenbin Zhang
 
 ### Website
 
-[Click](https://fairness-lms-tutorial.github.io/) to visit our `tutorial website`.
+[Click](https://fairness-lms-tutorial.github.io/) to visit our tutorial website.
