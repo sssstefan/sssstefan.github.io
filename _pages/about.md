@@ -31,7 +31,7 @@ Hello, my name is Zhipeng Yin. I am a Ph.D. candidate at the Knight Foundation S
 </p>
 
 <p style="text-align: justify;">
-My research centers on <strong>trustworthy AI, with a particular focus on algorithmic fairness, reliability, interpretability, as well as the intricate copyright and intellectual property challenges brought by generative models</strong>.
+My research centers on <code>trustworthy AI, with a particular focus on algorithmic fairness, reliability, interpretability, as well as the intricate copyright and intellectual property challenges brought by generative models</code>.
 </p>
 
 <p style="text-align: justify;">
