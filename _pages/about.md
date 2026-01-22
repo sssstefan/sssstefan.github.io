@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>📷 at Top of the Rock,</p>
     <p>Rockefeller Cente, 2023</p>
-    <p>Your City, State 12345</p>
+#    <p>Your City, State 12345</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
