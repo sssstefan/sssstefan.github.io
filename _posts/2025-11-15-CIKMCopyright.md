@@ -1,0 +1,18 @@
+---
+layout: post
+title: Uncertain Boundaries:A Tutorial on Copyright Challenges and Cross-Disciplinary Solutions for Generative AI
+date: 2025-11-16
+description: Tutorial, The ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Korea
+thumbnail: assets/img/copyright.png
+---
+
+### Abstract
+
+As generative artificial intelligence (AI) becomes increasingly prevalent in creative industries, intellectual property issues have come to the forefront, especially regarding AI-generated content that closely resembles human-created works. Recent high-profile incidents involving AI-generated outputs reproducing copyrighted materials underscore the urgent need to reassess current copyright frameworks and establish effective safeguards against infringement. To this end, this tutorial provides a structured overview of copyright challenges in generative AI across the entire development lifecycle. It begins by outlining key copyright principles relevant to generative models, then explores methods for detecting and evaluating potential infringement in generated outputs. The session also introduces strategies to safeguard creative content and training data from unauthorized replication, including mitigation techniques during model training. Finally, it reviews existing regulatory frameworks, highlights unresolved research questions, and offers recommendations to guide future work in this evolving area.
+
+### Authors
+`Zhipeng Yin`, Zichong Wang, Avash Palikhe and Wenbin Zhang
+
+### Website
+
+[Click](https://aicopyright-tutorial.github.io/) to visit our `tutorial website`.
