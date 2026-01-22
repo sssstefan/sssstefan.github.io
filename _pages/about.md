@@ -35,7 +35,7 @@ My research centers on <code>trustworthy AI, with a particular focus on algorith
 </p>
 
 <p style="text-align: justify;">
-Along my academic journey, I was honored to receive the <a href="https://ecmlpkdd.org/2025/awards/">Best Student Paper Award at ECML-PKDD 2025</a>. Guided by my advisor, my academic lineage connects back to the legendary mathematician Paul Erdős, granting me an Erdős number of 4 (me -> Wenbin Zhang -> Alan Evans -> David Avis → Erdős), a symbolic reflection of my commitment to interdisciplinary collaboration and scholarly excellence.
+Along my academic journey, I was honored to receive the <a href="https://ecmlpkdd.org/2025/awards/">Best Student Paper Award at ECML-PKDD 2025</a>. Guided by my advisor, my academic lineage connects back to the legendary mathematician Paul Erdős, granting me an Erdős number of 4 (me -> Wenbin Zhang -> Alan Evans -> David Avis -> Erdős), a symbolic reflection of my commitment to interdisciplinary collaboration and scholarly excellence.
 </p>
 
 <p style="text-align: justify;">
