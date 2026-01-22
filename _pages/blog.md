@@ -25,7 +25,7 @@ pagination:
 
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    <h5>{{ site.blog_description }}</h5>
   </div>
   {% endif %}
 
@@ -179,7 +179,7 @@ pagination:
 </div>
 
   <div class="col-sm-3">
-    <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
+    <img class="card-img" src="{{ post.thumbnail | relative_url }}" style=" width:200px; height: 150px" alt="image">
   </div>
 </div>
 {% endif %}
