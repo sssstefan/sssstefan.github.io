@@ -27,11 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 <p style="text-align: justify;">
-Hello, my name is Zhipeng Yin. I am a Ph.D. candidate at the Knight Foundation School of Computing and Information Sciences (KFSCIS) at Florida International University, fortunate to be advised by [Dr. Wenbin Zhang](https://users.cs.fiu.edu/~wbzhang/), whose expertise lies in Reliable AI.
+Hello, my name is Zhipeng Yin. I am a Ph.D. candidate at the Knight Foundation School of Computing and Information Sciences (KFSCIS) at Florida International University, fortunate to be advised by <a href="https://users.cs.fiu.edu/~wbzhang/">Dr. Wenbin Zhang</a>, whose expertise lies in Reliable AI.
 </p>
 
 <p style="text-align: justify;">
-My research centers on `trustworthy AI, with a particular focus on algorithmic fairness, reliability, interpretability, as well as the intricate copyright and intellectual property challenges brought by generative models`.
+My research centers on <strong>trustworthy AI, with a particular focus on algorithmic fairness, reliability, interpretability, as well as the intricate copyright and intellectual property challenges brought by generative models</strong>.
 </p>
 
 <p style="text-align: justify;">
@@ -39,7 +39,7 @@ Along my academic journey, I have been honored with the ECML-PKDD 2025 <a href="
 </p>
 
 <p style="text-align: justify;">
-Before entering academia, I worked as a software engineer and game developer. One of my most rewarding projects was contributing to [Top War](https://www.rivergame.net/en/default.html?1648441890461), a game now enjoyed by over `100 million` players worldwide. Outside of research and coding, I am an avid photographer drawn to the beauty of nature, capturing sunrises, sunsets and starry skies to tell visual stories through my lens.
+Before entering academia, I worked as a software engineer and game developer. One of my most rewarding projects was contributing to <a href="https://www.rivergame.net/en/default.html?1648441890461">Top War</a>, a game now enjoyed by over `100 million` players worldwide. Outside of research and coding, I am an avid photographer drawn to the beauty of nature, capturing sunrises, sunsets and starry skies to tell visual stories through my lens.
 </p>
 
 <p style="text-align: justify;">
