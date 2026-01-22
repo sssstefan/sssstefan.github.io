@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Shoot at Rockefeller Center</p>
-#    <p>Rockefeller Cente, 2023</p>
+    <p>Shoot at Top of the Rock,</p>
+    <p>Rockefeller Center, 2023.</p>
 #    <p>Your City, State 12345</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
