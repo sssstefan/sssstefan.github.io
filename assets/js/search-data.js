@@ -30,59 +30,59 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        },{id: "post-fairness-in-large-language-models-a-tutorial",
         
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: "Fairness in Large Language Models:A Tutorial",
         
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+        description: "Tutorial, 2025 IEEE International Conference on Data Mining (ICDM), Washington, D.C., United States",
         section: "Posts",
         handler: () => {
           
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+            window.location.href = "/blog/2025/ICDMFairness/";
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
+      },{id: "post-uncertain-boundaries-a-tutorial-on-copyright-challenges-and-cross-disciplinary-solutions-for-generative-ai",
         
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: "Uncertain Boundaries:A Tutorial on Copyright Challenges and Cross-Disciplinary Solutions for Generative AI",
         
-        description: "",
+        description: "Tutorial, The ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Korea",
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+            window.location.href = "/blog/2025/CIKMCopyright/";
           
         },
-      },{id: "post-a-post-with-code",
+      },{id: "post-fairness-in-large-language-models-a-tutorial",
         
-          title: "a post with code",
+          title: "Fairness in Large Language Models:A Tutorial",
         
-        description: "an example of a blog post with some code",
+        description: "Tutorial, The ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Korea",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/code/";
+            window.location.href = "/blog/2025/CIKMFairness/";
           
         },
-      },{id: "post-a-post-with-images",
+      },{id: "post-fairness-in-large-language-models-a-tutorial",
         
-          title: "a post with images",
+          title: "Fairness in Large Language Models:A Tutorial",
         
-        description: "this is what included images could look like",
+        description: "Tutorial, 34th International Joint Conference on Artificial Intelligence (IJCAI), Montreal, Canada",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/images/";
+            window.location.href = "/blog/2025/IJCAIFairness/";
           
         },
-      },{id: "post-a-post-with-formatting-and-links",
+      },{id: "post-uncertain-boundaries-a-tutorial-on-copyright-challenges-and-cross-disciplinary-solutions-for-generative-ai",
         
-          title: "a post with formatting and links",
+          title: "Uncertain Boundaries:A Tutorial on Copyright Challenges and Cross-Disciplinary Solutions for Generative AI",
         
-        description: "march &amp; april, looking forward to summer",
+        description: "Tutorial, 2024 IEEE International Conference on Data Mining (ICDM), Abu Dhabi, UAE",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/formatting-and-links/";
+            window.location.href = "/blog/2024/ICDMCopyright/";
           
         },
       },{id: "teachings-cap5602-introduce-to-artificial-intelligence",
