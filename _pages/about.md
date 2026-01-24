@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Ph.D. Candidate | Photographer <br><a href='https://www.fiu.edu/'>Florida International University</a> Miami, FL. 
+subtitle: Ph.D. Candidate | Photographer <br><a href='https://www.fiu.edu/'>Florida International University</a>, Miami, FL. 
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p style="padding-left: 16px;">Shoot at Top of the Rock,</p>
-    <p style="padding-left: 16px;">Rockefeller Center, 2023.</p>
+    <p style="padding-left: 16px;">Rockefeller Center, 2023</p>
 #    <p>Your City, State 12345</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -39,7 +39,7 @@ Along my academic journey, I was honored to receive the <a href="https://ecmlpkd
 </p>
 
 <p style="text-align: justify;">
-Before entering academia, I worked as a software engineer and game developer. One of my most rewarding projects was contributing to <a href="https://www.rivergame.net/en/default.html?1648441890461">Top War</a>, a game now enjoyed by over `100 million` players worldwide. Outside of research and coding, I am an avid photographer drawn to the beauty of nature, capturing sunrises, sunsets and starry skies to tell visual stories through my lens.
+Before entering academia, I worked as a software engineer and game developer. One of my most rewarding projects was contributing to <a href="https://www.rivergame.net/en/default.html?1648441890461">Top War</a>, a game now enjoyed by over <code>100 million</code>> players worldwide. Outside of research and coding, I am an avid photographer drawn to the beauty of nature, capturing sunrises, sunsets and starry skies to tell visual stories through my lens.
 </p>
 
 <p style="text-align: justify;">
