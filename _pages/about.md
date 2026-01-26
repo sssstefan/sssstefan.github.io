@@ -39,7 +39,7 @@ Along my academic journey, I was honored to receive the <a href="https://ecmlpkd
 </p>
 
 <p style="text-align: justify;">
-Before entering academia, I worked as a software engineer and game developer. One of my most rewarding projects was contributing to <a href="https://www.rivergame.net/en/default.html?1648441890461">Top War</a>, a game now enjoyed by over <code>100 million</code>> players worldwide. Outside of research and coding, I am an avid photographer drawn to the beauty of nature, capturing sunrises, sunsets and starry skies to tell visual stories through my lens.
+Before entering academia, I worked as a software engineer and game developer. One of my most rewarding projects was contributing to <a href="https://www.rivergame.net/en/default.html?1648441890461">Top War</a>, a game now enjoyed by over <code>100 million</code> players worldwide. Outside of research and coding, I am an avid photographer drawn to the beauty of nature, capturing sunrises, sunsets and starry skies to tell visual stories through my lens.
 </p>
 
 <p style="text-align: justify;">
