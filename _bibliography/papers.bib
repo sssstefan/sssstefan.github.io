@@ -41,16 +41,6 @@
   html={https://arxiv.org/abs/2511.13525}
 }
 
-@article{wang2025towards,
-  abstract={Machine Learning (ML) software is increasingly influencing decisions that impact individuals’ lives. However, some of these decisions show discrimination and thus introduce algorithmic biases against certain social groups defined by sensitive attributes (e.g., gender or race). This has elevated software fairness bugs to an increasingly significant concern for software engineering (SE). However, most existing bias mitigation works focus on tabular data. Exploration in the context of graph data, which is widely prevalent in real-world applications, has been relatively neglected. This paper thus sheds light on the impact of biases within graph data on the fairness of ML models and how to detect biases in graph based software. Subsequently, we introduce Fair Graph Redistribution and Generation (FGRG), a novel fair imbalance node learning technique designed to enhance the fairness of graph-based ML software. Specifically, FGRG commences with the generation of unbiased node embeddings for each node. Next, FGRG identifies node similarities within the embedding space and generates new nodes to rebalance the internal distribution, ensuring subgroups with different sensitive attributes are balanced representations across both positive and negative classes. Experiments on 8 real-world graphs across 3 fairness and 4 performance measurements show that our framework significantly outperforms the state-of-the-art baselines, and also achieves comparable prediction performance. In particular, FGRG beats the trade-off baseline in 79.16% of the fairness cases evaluated and 62.5% of the performance cases evaluated.},
-  title={Towards fair graph-based machine learning software: unveiling and mitigating graph model bias},
-  author={Wang, Zichong and Yin, Zhipeng and Zhang, Xingyu and Zhang, Yuying and He, Xudong and Wang, Shaowei and Song, Houbing and Yang, Liping and Zhang, Wenbin},
-  journal={AI and Ethics},
-  year={2025},
-  publisher={Springer},
-  html={https://link.springer.com/article/10.1007/s43681-025-00756-y}
-}
-
 @article{wang2025fairness,
   award={🎉 🎉 Best student paper award 🎉 🎉},
   award_name={🎉 🎉 Best student paper award 🎉 🎉},
@@ -92,6 +82,16 @@
   html={https://arxiv.org/pdf/2404.08221}
 }
 
+@article{wang2025towards,
+  abstract={Machine Learning (ML) software is increasingly influencing decisions that impact individuals’ lives. However, some of these decisions show discrimination and thus introduce algorithmic biases against certain social groups defined by sensitive attributes (e.g., gender or race). This has elevated software fairness bugs to an increasingly significant concern for software engineering (SE). However, most existing bias mitigation works focus on tabular data. Exploration in the context of graph data, which is widely prevalent in real-world applications, has been relatively neglected. This paper thus sheds light on the impact of biases within graph data on the fairness of ML models and how to detect biases in graph based software. Subsequently, we introduce Fair Graph Redistribution and Generation (FGRG), a novel fair imbalance node learning technique designed to enhance the fairness of graph-based ML software. Specifically, FGRG commences with the generation of unbiased node embeddings for each node. Next, FGRG identifies node similarities within the embedding space and generates new nodes to rebalance the internal distribution, ensuring subgroups with different sensitive attributes are balanced representations across both positive and negative classes. Experiments on 8 real-world graphs across 3 fairness and 4 performance measurements show that our framework significantly outperforms the state-of-the-art baselines, and also achieves comparable prediction performance. In particular, FGRG beats the trade-off baseline in 79.16% of the fairness cases evaluated and 62.5% of the performance cases evaluated.},
+  title={Towards fair graph-based machine learning software: unveiling and mitigating graph model bias},
+  author={Wang, Zichong and Yin, Zhipeng and Zhang, Xingyu and Zhang, Yuying and He, Xudong and Wang, Shaowei and Song, Houbing and Yang, Liping and Zhang, Wenbin},
+  journal={AI and Ethics},
+  year={2025},
+  publisher={Springer},
+  html={https://link.springer.com/article/10.1007/s43681-025-00756-y}
+}
+
 @article{wang2025fg,
   abstract={Graphgenerativemodelshavebecome increasinglyprevalent across various domains due to their superior performance indiverseapplications. However, as theirapplicationrises,particularlyinhigh-riskdecision-makingscenarios, concerns about their fairness are intensifyingwithin the community. Existing graph-basedgenerationmodels mainlyfocusonsynthesizingminoritynodestoenhancethe node classificationperformance. However, byoverlooking thenodegenerationprocess,thisstrategymayintensifyrepresentationaldisparitiesamongdifferentsubgroups,thereby furthercompromisingthefairnessof themodel.Moreover, existingoversamplingmethodsgeneratesamplesbyselectinginstancesfromcorrespondingsubgroups,riskingoverfittinginthosesubgroupsowingtotheirunderrepresentation. Furthermore,theyfailtoaccountfortheinherentimbalance inedgedistributionsamongsubgroups,consequentlyintroducingstructuralbiaswhengeneratinggraphstructure information.Toaddressthesechallenges,thispaperelucidates howexistinggraph-basedsamplingtechniquescanamplify real-worldbiasandproposesanovel framework,FairGraph SyntheticMinorityOversamplingTechnique(FG-SMOTE), aimedatachievinga fairbalance inrepresentingdifferent subgroups. Specifically, FG-SMOTE starts by removing the identifiabilityof subgroup information fromnode representations. Subsequently, the embeddings for simulated nodesaregeneratedbysampling fromthese subgroup informationdesensitizednoderepresentations. Lastly, a fair linkpredictor isemployedtogeneratethegraphstructure information. Extensive experimental evaluations onthree realgraphdatasetsshowthatFG-SMOTEoutperformsthe state-of-the-artbaselines infairnesswhilealsomaintaining competitivepredictiveperformance.},
   title={Fg-smote: Towards fair node classification with graph neural network},
@@ -111,6 +111,7 @@
   publisher={ACM New York, NY, USA},
   html={https://dl.acm.org/doi/pdf/10.1145/3715073.3715081}
 }
+
 
 @article{yin2024improving,
   abstract={Machine Learning (ML) software is increasingly influencing decisions that impact individuals' lives. However, some of these decisions show discrimination and thus introduce algorithmic biases against certain social subgroups defined by sensitive attributes (e.g., gender or race). This has elevated software fairness bugs to an increasingly significant concern for software engineering (SE). However, most existing bias mitigation works enhance software fairness, a non-functional software property, at the cost of software performance. To this end, we proposed a novel framework, namely Group Equality Counterfactual Fairness (GECF), which aims to mitigate sensitive attribute bias and labeling bias using counterfactual fairness while reducing the resulting performance loss based on ensemble learning. Experimental results on 6 real-world datasets show the superiority of our proposed framework from different aspects.},
