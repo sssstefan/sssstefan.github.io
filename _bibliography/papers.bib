@@ -5,7 +5,7 @@
   abstract={Large Language Models (LLMs) achieve strong performance in many applications but remain limited in handling graph-structured data due to their reliance on textual context. Recent approaches integrate Graph Neural Networks (GNNs) to enhance structural modeling, yet they largely overlook fairness, leaving models vulnerable to bias amplification across graph and text modalities. To address this issue, we propose FairGEnt, a disentangled graph-enhanced large language model for fair graph learning. FairGEnt separates sensitive-related and sensitive-invariant factors in both graph and textual representations to mitigate bias while preserving task-relevant information, and further aligns the two modalities through a fairness-aware integration module. In addition, FairGEnt incorporates fair graph-enhanced instruction tuning to improve LLM understanding of complex graph structures. Experiments on multiple benchmark datasets demonstrate that FairGEnt consistently outperforms existing methods in both fairness and predictive performance.},
   title     = {Disentangled Graph-Enhanced Large Language Models for Fair Learning},
   author    = {Yin, Zhipeng and Wang, Zichong and Chen, Zhong and Yang, Jack and Ning, Xin and Zhang, Wenbin},
-  booktitle = {Proceedings of the 35th International Joint Conference on Artificial Intelligence (IJCAI)},
+  booktitle = {The 35th International Joint Conference on Artificial Intelligence (IJCAI)},
   year      = {2026}
 }
 
@@ -13,7 +13,7 @@
   abstract={Text-to-Image (T2I) diffusion models have been widely adopted due to their strong generative capabilities, while Low-Rank Adaptation (LoRA) has emerged as an efficient mechanism for customizing these models for diverse creative and commercial applications. This trend has fostered LoRA-centric service platforms that that enable the customization and commercial distribution of LoRA modules according to user requirements. However, the growing prevalence of LoRA and its critical role in customized AI services have raised urgent concerns about LoRA copyright protection. To address this gap, we propose \textit{$LoRA^2D$}, an authorized dual-watermarking framework specifically designed to protect LoRA modules in T2I diffusion models. $LoRA^2D$ integrates license-based authorization control with explicit watermarks as visible deterrents for unauthorized or trial usage, which can be removed upon valid authorization, while persistently embedding an implicit watermark for robust black-box ownership verification. Extensive experiments on multiple image-generation datasets demonstrate the effectiveness and practicality of $LoRA^2D$ for securing copyrights in LoRA-adapted T2I diffusion models.},
   title     = {Toward LoRA Copyright Protection with an Authorized Dual-Watermarking Framework},
   author    = {Yin, Zhipeng and Wang, Zichong and Chen, Ruijun and Ning, Xin and Zhang, Xingyu and Zhang, Wenbin},
-  booktitle = {Proceedings of the 35th International Joint Conference on Artificial Intelligence (IJCAI)},
+  booktitle = {The 35th International Joint Conference on Artificial Intelligence (IJCAI)},
   year      = {2026}
 }
 
@@ -22,7 +22,7 @@
   abstract={Fairness-aware graph learning has become increasingly important amid growing concerns about algorithmic bias in networked data. Among existing approaches, counterfactual fairness is particularly appealing as it seeks to eliminate unfairness at its causal origin by ensuring that predictions remain invariant in counterfactual worlds where sensitive attributes are altered. However, most existing methods assume that all observed variables are directly influenced by sensitive attributes, an overly strong and often unrealistic assumption in real-world graphs. To address this limitation, we propose Graph Counterfactual Fairness (GCFair), a novel framework that achieves counterfactual fairness by explicitly identifying and disentangling the subsets of node features and graph structures genuinely affected by sensitive attributes. This principled joint disentanglement enables the generation of authentic counterfactual instances that selectively modify only sensitive-related information while preserving all sensitive-irrelevant factors. Extensive experiments show that GCFair effectively mitigates bias and outperforms state-of-the-art fairness methods in both counterfactual fairness and predictive accuracy.},
   title     = {Learning Counterfactual Fairness from Authentic Generation},
   author    = {Wang, Zichong and Yin, Zhipeng and Chen, Zhong and Yang, Jack and Liu, Jun and Zhang, Wenbin},
-  booktitle = {Proceedings of the 35th International Joint Conference on Artificial Intelligence (IJCAI)},
+  booktitle = {The 35th International Joint Conference on Artificial Intelligence (IJCAI)},
   year      = {2026}
 }
 
@@ -30,7 +30,7 @@
   abstract={Graph Neural Networks (GNNs) have demonstrated strong predictive performance across a wide range of applications. However, their increasing deployment has raised critical fairness concerns, as these models can inherit and amplify existing biases. Most existing fairness approaches rely on explicit demographic information, either directly available or inferred, to measure and mitigate bias. In real-world settings, however, such information is often unavailable or legally prohibited to infer due to privacy concerns, legal restrictions, or regulatory constraints, which substantially limits the applicability of these methods. To address this challenge, we propose Demographic-Independent Fair Graph Learning (DIFGL), a novel framework for fair graph learning without demographic supervision. DIFGL mitigates group unfairness by minimizing disparities in individual treatment across implicitly identified subgroups, thereby enforcing fairness without requiring explicit demographic information. Extensive experiments on benchmark datasets demonstrate that DIFGL achieves significant improvements in fairness while maintaining competitive predictive performance.},
   title     = {Towards Fair Graph Learning without Demographic Supervision},
   author    = {Wang, Zichong and Yin, Zhipeng and Sha, Mo and Gao, Xiaofeng and Li, Xiaoli and Zhang, Wenbin},
-  booktitle = {Proceedings of the 35th International Joint Conference on Artificial Intelligence (IJCAI)},
+  booktitle = {The 35th International Joint Conference on Artificial Intelligence (IJCAI)},
   year      = {2026}
 }
 
@@ -53,7 +53,7 @@
   abstract={Graph generation models play pivotal roles in many real-world applications, from data augmentation to privacy-preserving. Despite their deployment successes, existing approaches often exhibit fairness issues, limiting their adoption in high-risk decision-making applications. Most existing fair graph generation works are based on autoregressive models that suffer from ordering sensitivity, while primarily addressing structural bias and overlooking the critical issue of feature bias. To this end, we propose FairGEM, a novel one-shot graph generation framework designed to mitigate both graph structural bias and node feature bias simultaneously. Furthermore, our theoretical analysis establishes that FairGEM delivers substantially stronger fairness guarantees than existing models while preserving generation quality. Extensive experiments across multiple real-world datasets demonstrate that FairGEM achieves superior performance in both generation quality and fairness.},
   title={A unified framework for fair graph generation: Theoretical guarantees and empirical advances},
   author={Wang, Zichong and Yin, Zhipeng and Zhang, Wenbin},
-  journal={The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)},
+  journal={The 39th Annual Conference on Neural Information Processing Systems (NeurIPS)},
   year={2025},
   html={https://openreview.net/forum?id=T85ADT8a2y}
 }
@@ -63,7 +63,7 @@
   abstract={Generative models have achieved impressive results in text to image tasks, significantly advancing visual content creation. However, this progress comes at a cost, as such models rely heavily on large-scale training data and may unintentionally replicate copyrighted elements, creating serious legal and ethical challenges for real-world deployment. To address these concerns, researchers have proposed various strategies to mitigate copyright risks, most of which are prompt based methods that filter or rewrite user inputs to prevent explicit infringement. While effective in handling obvious cases, these approaches often fall short in more subtle situations, where seemingly benign prompts can still lead to infringing outputs. To address these limitations, this paper introduces Assessing and Mitigating Copyright Risks (AMCR), a comprehensive framework which i) builds upon prompt-based strategies by systematically restructuring risky prompts into safe and non-sensitive forms, ii) detects partial infringements through attention-based similarity analysis, and iii) adaptively mitigates risks during generation to reduce copyright violations without compromising image quality. Extensive experiments validate the effectiveness of AMCR in revealing and mitigating latent copyright risks, offering practical insights and benchmarks for the safer deployment of generative models.},
   title={AMCR: A framework for assessing and mitigating copyright risks in generative models},
   author={Yin, Zhipeng and Wang, Zichong and Palikhe, Avash and Liu, Zhen and Liu, Jun and Zhang, Wenbin},
-  journal={28th European Conference on Artificial Intelligence (ECAI)},
+  journal={The 28th European Conference on Artificial Intelligence (ECAI)},
   year={2025},
   html={https://arxiv.org/abs/2509.00641}
 }
@@ -72,7 +72,7 @@
   abstract={Fairness in artificial intelligence (AI) has become a growing concern due to discriminatory outcomes in AI-based decision-making systems. While various methods have been proposed to mitigate bias, most rely on complete demographic information, an assumption often impractical due to legal constraints and the risk of reinforcing discrimination. This survey examines fairness in AI when demographics are incomplete, addressing the gap between traditional approaches and real-world challenges. We introduce a novel taxonomy of fairness notions in this setting, clarifying their relationships and distinctions. Additionally, we summarize existing techniques that promote fairness beyond complete demographics and highlight open research questions to encourage further progress in the field.},
   title={AI fairness beyond complete demographics: Current achievements and future directions},
   author={Wang, Zichong and Yin, Zhipeng and Yap, Roland HC and Zhang, Wenbin},
-  journal={28th European Conference on Artificial Intelligence (ECAI)},
+  journal={The 28th European Conference on Artificial Intelligence (ECAI)},
   year={2025},
   html={https://arxiv.org/abs/2511.13525}
 }
