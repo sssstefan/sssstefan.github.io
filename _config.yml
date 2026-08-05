@@ -8,7 +8,7 @@ middle_name:
 last_name: Yin
 contact_note: >
   <div style="display: none;">
-    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=zlrI0bBbUWCGzUZlRGtWaXBapT1nhyYzJzqOy2A1N64&cl=ffffff&w=a"></script>
+    <script defer src="https://stats.zhipengy.com/track.js" data-site="zhipengy.com"></script>
   </div>
 #  <div style="width: 300px; height: 170px; margin: 50px auto 0 auto;"><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=n&d=6jOsUZ0JJIOZZ-Evk6g6jVCZ7PKtlYAKQFCzTtMNug4&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script></div>
 #  You can even add a little note about which of these is the best way to reach you.
