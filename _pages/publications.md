@@ -14,8 +14,21 @@ You can also find my papers on <a href="https://scholar.google.com/citations?use
 
 {% include bib_search.liquid %}
 
+## Books
+
+Books to which I contributed chapters.
+
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @book --group_by none %}
+
+</div>
+
+## Conference and Journal Papers
+
+<div class="publications">
+
+<!-- Everything that is not a @book entry, grouped by year (see `scholar` in _config.yml). -->
+{% bibliography --query !@book %}
 
 </div>
