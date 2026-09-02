@@ -22,7 +22,7 @@ Books to which I contributed chapters.
 
 <div class="publications">
 
-{% bibliography --query @book --group_by none %}
+{% bibliography --query @book %}
 
 </div>
 
