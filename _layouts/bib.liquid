@@ -136,6 +136,13 @@
           {{- more_authors_hide -}}
         </span>
       {% endif %}
+      {% if entry.type == 'book' %}
+        {%- if author_array_size > 1 -%}
+          (Eds.)
+        {%- else -%}
+          (Ed.)
+        {%- endif -%}
+      {% endif %}
       {% if entry.annotation %}
         <i
           class="fa-solid fa-circle-info ml-1"
