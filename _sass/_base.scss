@@ -230,6 +230,113 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Profile photo carousel
+
+.profile-carousel-photos,
+.profile-carousel-captions {
+  // Stack the slides in a single grid cell, so the carousel keeps the height of its tallest slide.
+  display: grid;
+
+  .profile-carousel-slide {
+    grid-area: 1 / 1;
+    min-width: 0;
+    opacity: 0;
+    visibility: hidden;
+
+    &.is-active {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.profile-carousel-photos {
+  position: relative;
+  margin-bottom: 1rem;
+
+  figure {
+    margin: 0;
+  }
+
+  picture,
+  img {
+    display: block;
+  }
+
+  .profile-carousel-slide.is-active {
+    z-index: 1;
+  }
+}
+
+.profile-carousel-dots {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  z-index: 2;
+  display: flex;
+  padding: 0 0.25rem;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: translateX(-50%);
+}
+
+.profile-carousel-dot {
+  display: flex;
+  align-items: center;
+  padding: 0.4375rem 0.3125rem;
+  border: 0;
+  border-radius: 1rem;
+  background: none;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    width: 0.375rem;
+    height: 0.375rem;
+    border-radius: 0.1875rem;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  &:hover::before,
+  &.is-active::before {
+    background-color: #fff;
+  }
+
+  &.is-active::before {
+    width: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  // Fade the new photo in on top of the old one, which is only hidden once it is fully covered.
+  .profile-carousel-photos .profile-carousel-slide {
+    transition:
+      opacity 0s 0.8s,
+      visibility 0s 0.8s;
+
+    &.is-active {
+      transition: opacity 0.8s ease;
+    }
+  }
+
+  // Fade the old caption out before the new one fades in, so the two texts never overlap.
+  .profile-carousel-captions .profile-carousel-slide {
+    transition:
+      opacity 0.3s ease,
+      visibility 0s 0.3s;
+
+    &.is-active {
+      transition: opacity 0.5s ease 0.3s;
+    }
+  }
+
+  .profile-carousel-dot::before {
+    transition:
+      width 0.3s ease,
+      background-color 0.3s ease;
+  }
+}
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;

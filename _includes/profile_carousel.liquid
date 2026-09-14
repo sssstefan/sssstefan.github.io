@@ -1,0 +1,35 @@
+<!-- Profile photo carousel: photos and their captions switch together, driven by assets/js/profile-carousel.js -->
+<div class="profile-carousel" role="region" aria-roledescription="carousel" aria-label="Profile photos">
+  <div class="profile-carousel-photos">
+    {% for slide in include.slides %}
+      {% assign slide_image_path = slide.image | prepend: 'assets/img/' %}
+      {% assign slide_alt = slide.more_info | strip_html | normalize_whitespace | strip | default: slide.image %}
+      {% if forloop.first %}
+        {% assign slide_loading = 'eager' %}
+      {% else %}
+        {% assign slide_loading = 'lazy' %}
+      {% endif %}
+      <div class="profile-carousel-slide{% if forloop.first %} is-active{% endif %}">
+        {%
+          include figure.liquid loading=slide_loading path=slide_image_path class=include.class sizes=include.sizes alt=slide_alt
+          cache_bust=true
+        %}
+      </div>
+    {% endfor %}
+    <div class="profile-carousel-dots" hidden>
+      {% for slide in include.slides %}
+        <button
+          type="button"
+          class="profile-carousel-dot{% if forloop.first %} is-active{% endif %}"
+          aria-label="Show photo {{ forloop.index }}"
+          aria-current="{% if forloop.first %}true{% else %}false{% endif %}"
+        ></button>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="profile-carousel-captions">
+    {% for slide in include.slides %}
+      <div class="more-info profile-carousel-slide{% if forloop.first %} is-active{% endif %}">{{ slide.more_info }}</div>
+    {% endfor %}
+  </div>
+</div>

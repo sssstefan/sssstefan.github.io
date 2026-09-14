@@ -6,11 +6,20 @@ subtitle: Ph.D. Candidate | Photographer <br><a href='https://www.fiu.edu/'>Flor
 
 profile:
   align: right
-  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p style="padding-left: 16px;">Shoot at Top of the Rock,</p>
-    <p style="padding-left: 16px;">Rockefeller Center, 2023</p>
+  slides: # photos rotate as a carousel; each photo's more_info is shown below it
+    - image: prof_pic.jpg
+      more_info: >
+        <p style="padding-left: 16px;">Shoot at Top of the Rock,</p>
+        <p style="padding-left: 16px;">Rockefeller Center, 2023</p>
+    - image: prof_pic_snowbird.jpg
+      more_info: >
+        <p style="padding-left: 16px;">Shoot at SnowBird Resort,</p>
+        <p style="padding-left: 16px;">Salt Lake City, 2025</p>
+    - image: prof_pic_kona.jpg
+      more_info: >
+        <p style="display: block; text-align: center;">Shoot at Kona,</p>
+        <p style="display: block; text-align: center;">Hawaii, 2026</p>
 #    <p>Your City, State 12345</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -35,7 +44,7 @@ My research centers on <code>trustworthy AI, with an emphasis on understanding a
 </p>
 
 <p style="text-align: justify;">
-Along my academic journey, I was honored to receive the <a href="https://ecmlpkdd.org/2025/awards/">Best Student Paper Award at ECML-PKDD 2025</a>. Guided by my advisor, my academic lineage connects back to the legendary mathematician Paul Erdős, granting me an Erdős number of 4 (me -> Wenbin Zhang -> Alan Evans -> David Avis -> Erdős), a symbolic reflection of my commitment to interdisciplinary collaboration and scholarly excellence.
+Along my academic journey, I was honored to receive the <a href="https://ecmlpkdd.org/2025/awards/">Best Student Paper Award at ECML-PKDD 2025</a>. Guided by my advisor, my academic lineage connects back to the legendary mathematician Paul Erdős, granting me an <a href="https://sites.google.com/oakland.edu/grossman/home/the-erdoes-number-project">Erdős number</a> of 4 (me -> Wenbin Zhang -> Alan Evans -> David Avis -> Erdős), a symbolic reflection of my commitment to interdisciplinary collaboration and scholarly excellence.
 </p>
 
 <p style="text-align: justify;">

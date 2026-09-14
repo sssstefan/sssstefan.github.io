@@ -184,6 +184,11 @@
   ></script>
 {% endif %}
 
+{% if page.profile.slides %}
+  <!-- Profile Photo Carousel -->
+  <script defer src="{{ '/assets/js/profile-carousel.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
+
 <!-- Load Common JS -->
 <script src="{{ '/assets/js/no_defer.js' | relative_url | bust_file_cache }}"></script>
 <script defer src="{{ '/assets/js/common.js' | relative_url | bust_file_cache }}"></script>
