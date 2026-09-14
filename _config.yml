@@ -253,7 +253,9 @@ sass:
 
 jekyll-minifier:
   compress_javascript: false # set to false since we are using terser as the js minifier
-  exclude: ["robots.txt", "assets/js/search/*.js"]
+  # main.css is already compressed by Sass; minifying it again strips units from zero values
+  # (e.g. hsla(0,0%,100%,.6) -> hsla(0,0,100%,.6), 0s -> 0), which makes those declarations invalid
+  exclude: ["robots.txt", "assets/js/search/*.js", "assets/css/main.css"]
 
 # -----------------------------------------------------------------------------
 # Terser
