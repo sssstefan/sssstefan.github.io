@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: Talk
+title: Tutorial
 nav: true
 nav_order: 2
 pagination:
