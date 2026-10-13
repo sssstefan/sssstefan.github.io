@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-talk",
-          title: "Talk",
+        },{id: "nav-tutorial",
+          title: "Tutorial",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-fairness-in-large-language-models-a-tutorial",
+        },{id: "post-agentic-ai-alignment-principles-methods-evaluation-and-responsible-deployment",
+        
+          title: "Agentic AI Alignment:Principles, Methods, Evaluation, and Responsible Deployment",
+        
+        description: "Tutorial, The 14th IEEE International Conference on Big Data (BigData), Phoenix, United States",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/BigDataAgentic/";
+          
+        },
+      },{id: "post-fairness-in-large-language-models-a-tutorial",
         
           title: "Fairness in Large Language Models:A Tutorial",
         
