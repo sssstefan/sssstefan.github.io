@@ -228,6 +228,9 @@
       {% if entry.springer %}
         <a href="{{ entry.springer }}" class="btn btn-sm z-depth-0" role="button">Link</a>
       {% endif %}
+      {% if entry.amazon %}
+        <a href="{{ entry.amazon }}" class="btn btn-sm z-depth-0" role="button">Amazon</a>
+      {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
           <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>

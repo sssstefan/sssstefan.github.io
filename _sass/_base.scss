@@ -1642,3 +1642,43 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+// News list on the about page
+.news table {
+  margin-bottom: 0;
+}
+
+.news table tr + tr {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.news table th,
+.news table td {
+  padding: 0.65rem 0;
+  vertical-align: middle;
+  color: var(--global-text-color);
+}
+
+.news table th {
+  width: 1%;
+  padding-right: 1.25rem;
+  white-space: nowrap;
+}
+
+.news .news-date {
+  display: inline-block;
+  min-width: 5.5rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--global-theme-color) 8%, transparent);
+  color: var(--global-theme-color);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+// Italic venue names lean into the trailing "!", so give them a little room
+.news td em {
+  padding-right: 0.2em;
+}
