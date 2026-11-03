@@ -96,7 +96,19 @@ ninja.data = [{
             window.location.href = "/blog/2024/ICDMCopyright/";
           
         },
-      },{id: "teachings-cap5602-introduce-to-artificial-intelligence",
+      },{id: "news-four-papers-have-been-accepted-by-ijcai-2026",
+          title: 'Four papers have been accepted by IJCAI 2026!',
+          description: "",
+          section: "News",},{id: "news-one-paper-has-been-accepted-by-plos-digital-health",
+          title: 'One paper has been accepted by PLOS Digital Health!',
+          description: "",
+          section: "News",},{id: "news-our-tutorial-has-been-accepted-by-bigdata-2026",
+          title: 'Our tutorial has been accepted by BigData 2026!',
+          description: "",
+          section: "News",},{id: "news-one-paper-has-been-accepted-by-neurips-2026",
+          title: 'One paper has been accepted by NeurIPS 2026!',
+          description: "",
+          section: "News",},{id: "teachings-cap5602-introduce-to-artificial-intelligence",
           title: 'CAP5602 Introduce to Artificial Intelligence',
           description: "Teaching Assistant",
           section: "Teachings",handler: () => {
