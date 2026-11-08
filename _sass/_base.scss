@@ -868,6 +868,24 @@ footer.sticky-bottom {
       .preview {
       }
 
+      .book-cover {
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .book-cover-placeholder {
+          width: 100%;
+          aspect-ratio: 2 / 3;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 2rem;
+          color: var(--global-text-color-light);
+          border: 1px solid var(--global-divider-color);
+        }
+      }
+
       .abbr {
         margin-bottom: 0.5rem;
 
