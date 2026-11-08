@@ -34,7 +34,7 @@ ninja.data = [{
         
           title: "Agentic AI Alignment:Principles, Methods, Evaluation, and Responsible Deployment",
         
-        description: "Tutorial, The 14th IEEE International Conference on Big Data (BigData), Phoenix, United States",
+        description: "The 14th IEEE International Conference on Big Data (BigData), Phoenix, United States",
         section: "Posts",
         handler: () => {
           
@@ -45,7 +45,7 @@ ninja.data = [{
         
           title: "Fairness in Large Language Models:A Tutorial",
         
-        description: "Tutorial, 2025 IEEE International Conference on Data Mining (ICDM), Washington, D.C., United States",
+        description: "2025 IEEE International Conference on Data Mining (ICDM), Washington, D.C., United States",
         section: "Posts",
         handler: () => {
           
@@ -56,7 +56,7 @@ ninja.data = [{
         
           title: "Uncertain Boundaries:A Tutorial on Copyright Challenges and Cross-Disciplinary Solutions for Generative AI",
         
-        description: "Tutorial, The ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Korea",
+        description: "The ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Korea",
         section: "Posts",
         handler: () => {
           
@@ -67,7 +67,7 @@ ninja.data = [{
         
           title: "Fairness in Large Language Models:A Tutorial",
         
-        description: "Tutorial, The ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Korea",
+        description: "The ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Korea",
         section: "Posts",
         handler: () => {
           
@@ -78,7 +78,7 @@ ninja.data = [{
         
           title: "Fairness in Large Language Models:A Tutorial",
         
-        description: "Tutorial, 34th International Joint Conference on Artificial Intelligence (IJCAI), Montreal, Canada",
+        description: "34th International Joint Conference on Artificial Intelligence (IJCAI), Montreal, Canada",
         section: "Posts",
         handler: () => {
           
@@ -89,7 +89,7 @@ ninja.data = [{
         
           title: "Uncertain Boundaries:A Tutorial on Copyright Challenges and Cross-Disciplinary Solutions for Generative AI",
         
-        description: "Tutorial, 2024 IEEE International Conference on Data Mining (ICDM), Abu Dhabi, UAE",
+        description: "2024 IEEE International Conference on Data Mining (ICDM), Abu Dhabi, UAE",
         section: "Posts",
         handler: () => {
           
