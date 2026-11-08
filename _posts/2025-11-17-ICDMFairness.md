@@ -2,7 +2,7 @@
 layout: post
 title: Fairness in Large Language Models:A Tutorial
 date: 2025-11-17 
-description: Tutorial, 2025 IEEE International Conference on Data Mining (ICDM), Washington, D.C., United States
+description: 2025 IEEE International Conference on Data Mining (ICDM), Washington, D.C., United States
 thumbnail: assets/img/fairllm.png
 ---
 

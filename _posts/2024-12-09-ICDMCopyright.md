@@ -2,7 +2,7 @@
 layout: post
 title: Uncertain Boundaries:A Tutorial on Copyright Challenges and Cross-Disciplinary Solutions for Generative AI
 date: 2024-12-09
-description: Tutorial, 2024 IEEE International Conference on Data Mining (ICDM), Abu Dhabi, UAE
+description: 2024 IEEE International Conference on Data Mining (ICDM), Abu Dhabi, UAE
 thumbnail: assets/img/copyright.png
 ---
 

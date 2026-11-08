@@ -2,7 +2,7 @@
 layout: post
 title: Uncertain Boundaries:A Tutorial on Copyright Challenges and Cross-Disciplinary Solutions for Generative AI
 date: 2025-11-16
-description: Tutorial, The ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Korea
+description: The ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Korea
 thumbnail: assets/img/copyright.png
 ---
 

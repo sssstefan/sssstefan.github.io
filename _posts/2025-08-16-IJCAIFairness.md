@@ -2,7 +2,7 @@
 layout: post
 title: Fairness in Large Language Models:A Tutorial
 date: 2025-08-16
-description: Tutorial, 34th International Joint Conference on Artificial Intelligence (IJCAI), Montreal, Canada
+description: 34th International Joint Conference on Artificial Intelligence (IJCAI), Montreal, Canada
 thumbnail: assets/img/fairllm.png
 ---
 

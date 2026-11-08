@@ -2,7 +2,7 @@
 layout: post
 title: Fairness in Large Language Models:A Tutorial
 date: 2025-11-15
-description: Tutorial, The ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Korea
+description: The ACM International Conference on Information and Knowledge Management (CIKM), Seoul, Korea
 thumbnail: assets/img/fairllm.png
 ---
 
