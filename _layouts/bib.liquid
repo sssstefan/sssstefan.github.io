@@ -2,7 +2,7 @@
 ---
 <div class="row">
   {% if entry.type == 'book' %}
-    <div class="col-4 col-sm-3 col-md-2 book-cover">
+    <div class="col-4 col-sm-3 col-md-4 book-cover">
       {% if entry.cover %}
         {% if entry.cover contains '://' %}
           {% assign cover_src = entry.cover %}
@@ -59,7 +59,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if entry.type == 'book' %}col-8 col-sm-9 col-md-10{% elsif site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" class="{% if entry.type == 'book' %}col-8 col-sm-9 col-md-8{% elsif site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->

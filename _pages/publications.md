@@ -20,7 +20,7 @@ You can also find my papers on <a href="https://scholar.google.com/citations?use
 
 Books to which I contributed chapters.
 
-<div class="publications">
+<div class="publications books">
 
 {% bibliography --query @book %}
 

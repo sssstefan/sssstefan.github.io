@@ -841,6 +841,23 @@ footer.sticky-bottom {
     }
   }
 
+  // Books section: two books per row from tablet width up.
+  &.books ol.bibliography {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 7rem;
+    row-gap: 2.5rem;
+    margin-bottom: 2.5rem;
+
+    li {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
   h2.bibliography {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
@@ -869,9 +886,11 @@ footer.sticky-bottom {
       }
 
       .book-cover {
+        // Same box for every cover, whatever the source image's proportions.
         img {
           width: 100%;
-          height: auto;
+          aspect-ratio: 2 / 3;
+          object-fit: cover;
         }
 
         .book-cover-placeholder {
